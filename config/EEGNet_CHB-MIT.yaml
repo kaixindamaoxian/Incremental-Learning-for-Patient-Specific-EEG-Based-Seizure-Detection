@@ -1,0 +1,13 @@
+DatasetParams:
+  dataset: CHB-MIT
+  root_path: '/home/z/dzw/Seizures/BIDS_CHB-MIT/'
+  preprocess_path : '/home/z/dzw/Seizures/BIDS_CHB-MIT_Preprocess/dataset/'  #
+  output_path : '/home/z/dzw/Seizures/BIDS_CHB-MIT_Preprocess/output_eegnet_chb/' #
+  channels : 18
+
+ModelParams:
+  num_cls: 2
+  lr: 0.0001 # 0.0005
+  epochs: 40
+  batch_size: 128
+  early_stopping_patience: 8

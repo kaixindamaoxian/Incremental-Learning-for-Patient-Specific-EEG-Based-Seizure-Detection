@@ -1,0 +1,13 @@
+DatasetParams:
+  dataset: Siena
+  root_path: '/home/z/dzw/Seizures/BIDS_Siena/'
+  preprocess_path : '/home/z/dzw/Seizures/BIDS_Siena_Preprocess/dataset/'  # /home/z/dzw/BIDS_CHB-MIT_Preprocess/dataset/
+  output_path : '/home/z/dzw/Seizures/BIDS_Siena_Preprocess/output_eegnet_siena/' # /home/z/dzw/BIDS_CHB-MIT_Preprocess/output/
+  channels : 19
+
+ModelParams:
+  num_cls: 2
+  lr: 0.001 # 0.0001
+  epochs: 40
+  batch_size: 128
+  early_stopping_patience: 8
