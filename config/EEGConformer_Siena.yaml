@@ -1,0 +1,12 @@
+DatasetParams:
+  dataset: Siena
+  root_path: '/home/z/dzw/Seizures/BIDS_Siena/'  # BIDS数据集存放路径
+  preprocess_path : '/home/z/dzw/Seizures/BIDS_Siena_Preprocess/dataset/'  # 指定预处理完数据后的数据存放路径
+  output_path : '/home/z/dzw/Seizures/BIDS_Siena_Preprocess/output_conformer_siena/' # 指定输出预测存放路径
+  channels : 18
+
+ModelParams:
+  lr: 0.001
+  epochs: 40
+  batch_size: 128
+  early_stopping_patience: 5
